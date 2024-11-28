@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #854632;
+    background-color: hsl(0, 0%, 8%);
     color: #ffffff;
     height: 100vh;
     display: flex;
@@ -51,7 +51,7 @@ a {
 }
 
 .links {
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 .content {
@@ -79,5 +79,13 @@ a {
 
 .a-foot {
     color: #676057;
+}
+
+a p:hover {
+    background-color: #f3e6d8;
+    color: #302d2c;
+}
+
+a:hover {
     border-bottom: 2px solid #854632;
 }
